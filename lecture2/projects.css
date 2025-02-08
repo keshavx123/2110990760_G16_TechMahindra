@@ -1,0 +1,79 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: white; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar is on top */
+}
+
+.navbar .menu-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.navbar .menu-items li {
+    margin-right: 20px;
+}
+
+.navbar .menu-items li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Header Section */
+.my-projects {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 70px; /* To prevent header content from being hidden under the navbar */
+}
+
+.my-projects h1 {
+    font-size: 30px;
+}
+
+/* Project Section */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}

@@ -215,6 +215,9 @@
   height: 400px;
   width: 25%;
 }
+.profile-img-container img{
+    border-radius: 50px;
+}
 
 .intro-text {
   color: #ff5733;
@@ -236,4 +239,35 @@
   color: #444;
   margin-top: 10px;
   line-height: 1.6;
+}
+
+.contact{
+    border: 2px solid green;
+    padding: 20px;
+    max-width: 20%;
+    box-shadow: 0 4px 8px black;
+}
+.contact button{
+    padding: 8px;
+    border: none;
+    text-decoration: none;
+    background: rgb(30, 30, 31);
+    color: #fff;
+    border-radius: 12px;
+
+}
+.contact label{
+    color: #ff5733;
+    font-size: 1.5rem;
+}
+.contact input{
+    max-width: 90%;
+    height: 28px;
+    border: 2px solid rgba(30,30,30,0.8);
+    border-radius: 5px;
+    /* box-shadow: 0 2px 2px ; */
+}
+.contact button:hover{
+    background-color: rgba(30,30,30,0.8);
+    /* border-radius: 20px; */
 }
