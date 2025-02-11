@@ -25,6 +25,6 @@
 
 
 
-document.getElementById("parafirst"){
+// document.getElementById("parafirst"){
     
-}
+// }
