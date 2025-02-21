@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+   
+
+    <style>
+      #grandParent {
+        border: 2px solid red;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+      }
+
+      #parent {
+        border: 2px solid green;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+      }
+
+      #child {
+        border: 2px solid blue;
+
+        height: 200px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+      }
+
+      #grandParent:hover {
+        background-color: red;
+      }
+      #parent:hover {
+        background-color: green;
+      }
+      #child {
+        background-color: blue;
+      }
+    </style>
+<!-- 
+    <div id="grandParent">
+      <div id="parent">
+        <div id="child">Center</div>
+      </div>
+    </div> -->
+    <!-- <div id="mainDiv">
+        <ul id="subjects">
+          <li id="cs">Computer Science</li>
+          <li id="ece">Electronics & Communication</li>
+          <li id="me">Mechanical Engineering</li>
+        </ul>
+      </div> -->
+
+
+    <div id="searchBar">
+        <span>Enter your Producr name:</span>
+        <input type="text" id="searchBox" placeholder="Enter your Product">
+    </div>
+
+    <script src="script.js"></script>                  
+  </body>
+</html>
